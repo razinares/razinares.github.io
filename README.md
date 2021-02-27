@@ -1,2 +1,2 @@
 # razinares.github.io
-This razinares/razinares.github.io is intented to host Razin's personal website.
+This razinares/razinares.github.io is intended to host Razin's personal website.
