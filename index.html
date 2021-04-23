@@ -61,13 +61,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 	<script>
-		new TypeIt("#x", {
-			strings: "Enthusiast, Enteprenuer",
-			speed: 70,
-			waitUntilVisible: true
-		}).go();
 		new TypeIt("#text-title", {
-		speed: 50
+		speed: 50,
+		waitUntilVisible: true
 		})
 		.type("The future is already here!")
 		.pause(500)
@@ -75,6 +71,7 @@
 		.delete(6)
 		.type("<strong>Future</strong>")
 		.move(26)
+
 		.go();
 	</script>
 
